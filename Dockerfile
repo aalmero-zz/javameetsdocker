@@ -1,5 +1,5 @@
 FROM java:7
-COPY JavaMeetsDcoker.java .
+COPY JavaMeetsDocker.java .
 RUN javac JavaMeetsDocker.java
 
 CMD ["java","JavaMeetsDocker"]
